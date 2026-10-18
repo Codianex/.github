@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Codianex — Digital Product Studio</title>
+  <desc id="d">Software that lasts, companies that trust us.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="75%">
+      <stop offset="0" stop-color="#2a2a30" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#09090b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop offset="0" stop-color="#fafafa" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fafafa" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#fafafa" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#fafafa" stroke-opacity=".05"/>
+    </pattern>
+    <radialGradient id="fm" cx="50%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="fade"><rect width="1280" height="320" fill="url(#fm)"/></mask>
+  </defs>
+  <rect width="1280" height="320" fill="#09090b"/>
+  <rect width="1280" height="320" fill="url(#grid)" mask="url(#fade)"/>
+  <rect width="1280" height="320" fill="url(#glow)"/>
+  <g font-family="'General Sans','Helvetica Neue',Helvetica,Arial,sans-serif" text-anchor="middle" fill="#fafafa">
+    <text x="640" y="160" font-size="76" font-weight="600" letter-spacing="22">CODIANEX</text>
+    <rect x="440" y="188" width="400" height="1" fill="url(#rule)"/>
+    <text x="640" y="228" font-size="17" font-weight="500" letter-spacing="9" fill="#a1a1aa">DIGITAL PRODUCT STUDIO</text>
+  </g>
+  <g font-family="'General Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12" letter-spacing="3" fill="#71717a">
+    <text x="40" y="296">SOFTWARE THAT LASTS</text>
+    <text x="1240" y="296" text-anchor="end">EST. 2020</text>
+  </g>
+</svg>
